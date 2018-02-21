@@ -1,0 +1,45 @@
+{
+  "name": "electron-webpack-preact",
+  "version": "1.0.0",
+  "description": "Simple Boilerplate for Electron 🖥️, Preact ⚛️ & Webpack ⚡",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "electron": "electron dist/main.js",
+    "prestart": "npm run build",
+    "start": "npm run electron",
+    "electron-toolkit": "electron ./node_modules/electron-toolkit"
+  },
+  "keywords": [
+    "electron-webpack",
+    "webpack-electron",
+    "preact",
+    "preact-electron",
+    "preact-webpack",
+    "preact-electron-webpack",
+    "sample",
+    "electron",
+    "node",
+    "javascript",
+    "app",
+    "desktop"
+  ],
+  "author": "Akshay Kadam",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "electron": "^1.8.2",
+    "electron-builder": "^19.56.0",
+    "electron-toolkit": "^1.0.24",
+    "html-webpack-plugin": "^2.30.1",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0",
+    "webpack-merge": "^4.1.1"
+  },
+  "dependencies": {
+    "preact": "^8.2.7"
+  }
+}
