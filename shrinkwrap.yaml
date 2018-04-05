@@ -10,8 +10,8 @@ devDependencies:
   electron-toolkit: 1.0.24
   html-webpack-plugin: 3.2.0
   uglifyjs-webpack-plugin: 1.2.4
-  webpack: 4.4.1
-  webpack-cli: 2.0.13
+  webpack: 4.5.0
+  webpack-cli: 2.0.14
   webpack-merge: 4.1.2
 packages:
   /7zip-bin-linux/1.3.1:
@@ -1643,7 +1643,7 @@ packages:
     dependencies:
       inherits: 2.0.3
       process-nextick-args: 2.0.0
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     resolution:
       integrity: sha512-Bq6+4t+lbM8vhTs/Bef5c5AdEMtapp/iFb6+s4/Hh9MVTt8OLKH7ZOOZSCT+Ys7hsHvqv0GuMPJ1lnQJVHvxpg==
@@ -1732,7 +1732,7 @@ packages:
   /concat-stream/1.6.0:
     dependencies:
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
       typedarray: 0.0.6
     dev: true
     engines:
@@ -1743,7 +1743,7 @@ packages:
     dependencies:
       buffer-from: 1.0.0
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
       typedarray: 0.0.6
     dev: true
     engines:
@@ -2140,7 +2140,7 @@ packages:
     dependencies:
       end-of-stream: 1.4.1
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
       stream-shift: 1.0.0
     dev: true
     resolution:
@@ -2390,6 +2390,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-QWgTO0K7BcOKNbGuQ5fIKYqzaeA=
+  /envinfo/4.4.2:
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-5rfRs+m+6pwoKRCFqpsA5+qsLngFms1aWPrxfKbrObCzQaPc3M3yPloZx+BL9UE3dK58cxw36XVQbFRSCCfGSQ==
   /errno/0.1.7:
     dependencies:
       prr: 1.0.1
@@ -2725,7 +2731,7 @@ packages:
       integrity: sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
   /first-chunk-stream/2.0.0:
     dependencies:
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     engines:
       node: '>=0.10.0'
@@ -2740,7 +2746,7 @@ packages:
   /flush-write-stream/1.0.3:
     dependencies:
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     resolution:
       integrity: sha512-calZMC10u0FMUqoiunI2AiGIIUtUIvifNwkHhNupZH4cbNnW1Itkoh/Nf5HFYmDrwWPjrUxpkZT0KhuCq0jmGw==
@@ -2793,7 +2799,7 @@ packages:
   /from2/2.3.0:
     dependencies:
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     resolution:
       integrity: sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8=
@@ -2837,7 +2843,7 @@ packages:
       graceful-fs: 4.1.11
       iferr: 0.1.5
       imurmurhash: 0.1.4
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     resolution:
       integrity: sha1-tH31NJPvkR33VzHnCp3tAYnbQMk=
@@ -3319,6 +3325,15 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
+  /import-local/1.0.0:
+    dependencies:
+      pkg-dir: 2.0.0
+      resolve-cwd: 2.0.0
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-vAaZHieK9qjGo58agRBg+bhHX3hoTZU/Oa3GESWLz7t1U62fk63aHuDJJEteXoDeTCcPmUT+z38gkHPZkkmpmQ==
   /imurmurhash/0.1.4:
     dev: true
     engines:
@@ -4291,7 +4306,7 @@ packages:
   /memory-fs/0.4.1:
     dependencies:
       errno: 0.1.7
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     resolution:
       integrity: sha1-OpoguEYlI+RHz7x+i7gO1me/xVI=
@@ -4557,7 +4572,7 @@ packages:
       process: 0.11.10
       punycode: 1.4.1
       querystring-es3: 0.2.1
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
       stream-browserify: 2.0.1
       stream-http: 2.8.1
       string_decoder: 1.1.1
@@ -4869,7 +4884,7 @@ packages:
     dependencies:
       cyclist: 0.2.2
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     resolution:
       integrity: sha1-1BDwZbBdojCB/NEPKIVMKb2jOwY=
@@ -5387,23 +5402,23 @@ packages:
     dev: true
     resolution:
       integrity: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=
-  /readable-stream/2.3.5:
+  /readable-stream/2.3.6:
     dependencies:
       core-util-is: 1.0.2
       inherits: 2.0.3
       isarray: 1.0.0
       process-nextick-args: 2.0.0
       safe-buffer: 5.1.1
-      string_decoder: 1.0.3
+      string_decoder: 1.1.1
       util-deprecate: 1.0.2
     dev: true
     resolution:
-      integrity: sha512-tK0yDhrkygt/knjowCUiWP9YdV7c5R+8cR0r/kt9ZhBU906Fs6RpQJCEilamRJj1Nx2rWI6LkW9gKqjTkshhEw==
+      integrity: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
   /readdirp/2.1.0:
     dependencies:
       graceful-fs: 4.1.11
       minimatch: 3.0.4
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
       set-immediate-shim: 1.0.1
     dev: true
     engines:
@@ -6032,7 +6047,7 @@ packages:
   /stream-browserify/2.0.1:
     dependencies:
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
     dev: true
     resolution:
       integrity: sha1-ZiZu5fm9uZQKTkUUyvtDu3Hlyds=
@@ -6047,7 +6062,7 @@ packages:
     dependencies:
       builtin-status-codes: 3.0.0
       inherits: 2.0.3
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
       to-arraybuffer: 1.0.1
       xtend: 4.0.1
     dev: true
@@ -6112,12 +6127,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
-  /string_decoder/1.0.3:
-    dependencies:
-      safe-buffer: 5.1.1
-    dev: true
-    resolution:
-      integrity: sha512-4AH6Z5fzNNBcH+6XDMfA/BTt87skxqJlO0lAh3Dker5zThcAxG6mKz+iGu308UKoPPQ8Dcqx/4JhujzltRa+hQ==
   /string_decoder/1.1.1:
     dependencies:
       safe-buffer: 5.1.1
@@ -6297,7 +6306,7 @@ packages:
       integrity: sha1-6zKE2k6jEbbMis42U3SKUqvyWj8=
   /through2/2.0.3:
     dependencies:
-      readable-stream: 2.3.5
+      readable-stream: 2.3.6
       xtend: 4.0.1
     dev: true
     resolution:
@@ -6714,15 +6723,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-MGO0nVniCLFAQz1qv22zM02QPjcpAoJdy7ED0i3Zy7SY1IecgXCm460ib7H/Wq7e9oL5VL6S2BxaObxwIcag0g==
-  /webpack-cli/2.0.13:
+  /webpack-cli/2.0.14:
     dependencies:
       chalk: 2.3.2
       cross-spawn: 6.0.5
       diff: 3.5.0
       enhanced-resolve: 4.0.0
+      envinfo: 4.4.2
       glob-all: 3.1.0
       global-modules: 1.0.0
       got: 8.3.0
+      import-local: 1.0.0
       inquirer: 5.2.0
       interpret: 1.1.0
       jscodeshift: 0.5.0
@@ -6734,11 +6745,10 @@ packages:
       p-each-series: 1.0.0
       p-lazy: 1.0.0
       prettier: 1.11.1
-      resolve-cwd: 2.0.0
       supports-color: 5.3.0
       v8-compile-cache: 1.1.2
       webpack-addons: 1.1.5
-      yargs: 11.0.0
+      yargs: 11.1.0
       yeoman-environment: 2.0.6
       yeoman-generator: 2.0.3
     dev: true
@@ -6747,7 +6757,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0
     resolution:
-      integrity: sha512-0lnOi3yla8FsZVuMsbfnNRB/8DlfuDugKdekC+4ykydZG0+UOidMi5J5LLWN4c0VJ8PqC19yMXXkYyCq78OuqA==
+      integrity: sha512-gRoWaxSi2JWiYsn1QgOTb6ENwIeSvN1YExZ+kJ0STsTZK7bWPElW+BBBv1UnTbvcPC3v7E17mK8hlFX8DOYSGw==
   /webpack-merge/4.1.2:
     dependencies:
       lodash: 4.17.5
@@ -6761,7 +6771,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-aqYp18kPphgoO5c/+NaUvEeACtZjMESmDChuD3NBciVpah3XpMEU9VAAtIaB1BsfJWWTSdv8Vv1m3T0aRk2dUw==
-  /webpack/4.4.1:
+  /webpack/4.5.0:
     dependencies:
       acorn: 5.5.3
       acorn-dynamic-import: 3.0.0
@@ -6786,7 +6796,7 @@ packages:
     engines:
       node: '>=6.11.5'
     resolution:
-      integrity: sha512-iLUJcsEAjaPKWbB32ADr29Pg9fPUVfFEMPK4VXyZGftzhSEFg2BLjHLoBYZ14wdTEA8xqG/hjpuX8qOmabRYvw==
+      integrity: sha512-6GrZsvQJnG7o7mjbfjp6s5CyMfdopjt1A/X8LcYwceis9ySjqBX6Lusso2wNZ06utHj2ZvfL6L3f7hfgVeJP6g==
   /which-module/2.0.0:
     dev: true
     resolution:
@@ -6939,6 +6949,23 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Rjp+lMYQOWtgqojx1dEWorjCofi1YN7AoFvYV7b1gx/7dAAeuI4kN5SZiEvr0ZmsZTOpDRcCqrpI10L31tFkBw==
+  /yargs/11.1.0:
+    dependencies:
+      cliui: 4.0.0
+      decamelize: 1.2.0
+      find-up: 2.1.0
+      get-caller-file: 1.0.2
+      os-locale: 2.1.0
+      require-directory: 2.1.1
+      require-main-filename: 1.0.1
+      set-blocking: 2.0.0
+      string-width: 2.1.1
+      which-module: 2.0.0
+      y18n: 3.2.1
+      yargs-parser: 9.0.2
+    dev: true
+    resolution:
+      integrity: sha512-NwW69J42EsCSanF8kyn5upxvjp5ds+t3+udGBeTbFnERA+lF541DDpMawzo4z6W/QrzNM18D+BPMiOBibnFV5A==
   /yauzl/2.4.1:
     dependencies:
       fd-slicer: 1.0.1
@@ -7009,6 +7036,6 @@ specifiers:
   html-webpack-plugin: ^3.2.0
   preact: ^8.2.7
   uglifyjs-webpack-plugin: ^1.2.4
-  webpack: ^4.4.1
-  webpack-cli: ^2.0.13
+  webpack: ^4.5.0
+  webpack-cli: ^2.0.14
   webpack-merge: ^4.1.2
